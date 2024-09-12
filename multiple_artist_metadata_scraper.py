@@ -112,7 +112,7 @@ df['artist'] = df['artist'].apply(map_artist_name)
 df['duration_min'] = df['duration_ms'] / 60000
 
 # Drop the specified columns
-df = df.drop(columns=['tempo', 'time_signature', 'spotify_id', 'spotify_uri', 'key'])
+df = df.drop(columns=['tempo', 'time_signature', 'spotify_id', 'spotify_uri', 'key', 'mode', 'duration_ms'])
 
 # Display the updated DataFrame
 print(df.head())
