@@ -5,3 +5,6 @@ The metadata was then visually analyzed to identify trends in these characterist
 
 ## multiple_artist_metadata_scraper.py
 Scrapes artist/album/track metadata descriptions from Spotify for multiple artists and exports to master_file.csv
+
+## generate_visualizations.ipynb
+Generates charts and graphs from CSV
