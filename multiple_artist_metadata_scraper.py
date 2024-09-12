@@ -2,7 +2,6 @@
 import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
-import plotly.express as px
 
 # Credentials from Spotify for developers
 cid = 'your client id here'
